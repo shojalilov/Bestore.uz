@@ -215,3 +215,16 @@
   });
 
 })()
+
+
+let count = 1;
+setInterval(()=>{
+  if(count === 3){
+    count = 1;
+  }
+  else{
+    count++;
+  }
+
+  document.getElementById("tab" + count).click();
+},4000)
