@@ -1789,7 +1789,7 @@ section {
     .our-work {
         background-image: url("../img/our-work-responsive.svg");
         background-size: contain;
-        height: 80vh !important;
+        height: 55vh !important;
         background-position: center center;
     }
 
@@ -1804,7 +1804,6 @@ section {
 
     .our-work {
         background-image: url("../img/our-work-responsive.svg");
-        height: 80vh !important;
         background-position: center center;
     }
 
@@ -1817,8 +1816,6 @@ section {
     section h2{
         margin-top: 15px;
     }
-    #hero{
-        height: 82vh !important;
-    }
+
 }
 
