@@ -1739,11 +1739,7 @@ section {
     transition: 0.3s;
 }
 
-#footer .social-links a:hover {
-    background: #1c84e3;
-    color: #fff;
-    text-decoration: none;
-}
+
 
 .footer-text {
     color: #41CD52;
@@ -1881,37 +1877,87 @@ section {
     .our-work{
         background-image: url("../img/our-work-responsive.svg");
         height: 80vh;
+        background-position: center center;
+
     }
     section{
         padding: 0 5px;
     }
-}
-
-@media only screen and (max-width: 980px) {
-    .broken {
-        margin-left: 0;
+    #hero{
+        height: 65vh !important;
     }
-
 }
 
+@media only screen and (max-width: 400px){
+    #hero{
+        height: 65vh !important;
+    }
+    .our-work{
+        height: 65vh !important;
+        background-position: center center;
+
+    }
+}
 @media only screen and (max-width: 700px) {
 
     .our-work {
         background-image: url("../img/our-work-responsive.svg");
         height: 80vh;
-
     }
 
     section {
         padding: 0 5px;
     }
+    #hero{
+        height: 70vh !important;
+    }
+    .icon-box {
+        padding: 0 !important;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .icon-box p,.icon-box a {
+        display: none;
+    }
+
+    .icon-box .icon {
+        display: block !important;
+        margin: 20px 10px !important;
+        float: left;
+    }
+
+    .icon-box .icon i {
+        display: block !important;
+
+    }
+    .icon i{
+        padding: 15px;
+    }
+    .icon-box h4 a {
+        display: block;
+        padding: 40px 0;
+        float: left !important;
+        font-size: 20px;
+    }
+    .our-work{
+        background-image: url("../img/our-work-responsive.svg");
+        height: 80vh;
+        background-position: center center;
+
+    }
+    section{
+        padding: 0 5px;
+    }
 }
-@media only screen and (max-width: 701px) {
+@media only screen and (max-width: 700px) {
 
     .our-work {
         background-image: url("../img/our-work-responsive.svg");
         background-size: contain;
         height: 80vh;
+        background-position: center center;
+
 
     }
 
@@ -1924,9 +1970,14 @@ section {
     .our-work {
         background-image: url("../img/our-work-responsive.svg");
         height: 80vh;
+        background-position: center center;
     }
 
     section {
         padding: 0 5px;
     }
+    .broken {
+        margin-left: 0;
+    }
 }
+
