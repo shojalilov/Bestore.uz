@@ -1850,7 +1850,7 @@ section {
     }
 
     .icon-box {
-        padding: 10px !important;
+        padding: 0 !important;
         width: 100%;
         cursor: pointer;
     }
