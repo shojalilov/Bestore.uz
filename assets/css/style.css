@@ -1880,10 +1880,13 @@ section {
     }
     .our-work{
         background-image: url("../img/our-work-responsive.svg");
-        height: 80vh;
+        height: 70vh;
     }
     section{
         padding: 0 5px;
+    }
+    #hero{
+        height: 70vh !important;
     }
 }
 
@@ -1899,6 +1902,7 @@ section {
     .our-work {
         background-image: url("../img/our-work-responsive.svg");
         height: 80vh;
+        background-position: center center;
 
     }
 
@@ -1906,27 +1910,61 @@ section {
         padding: 0 5px;
     }
 }
-@media only screen and (max-width: 701px) {
+@media only screen and (max-width: 700px) {
 
     .our-work {
         background-image: url("../img/our-work-responsive.svg");
         background-size: contain;
-        height: 80vh;
-
+        height: 70vh !important;
+        background-position: center center;
     }
 
     section {
         padding: 0 5px;
+    }
+    #hero{
+        height: 80vh;
     }
 }
 @media only screen and (max-width: 900px) {
 
     .our-work {
         background-image: url("../img/our-work-responsive.svg");
-        height: 80vh;
+        height: 70vh;
+        background-position: center center;
+
     }
 
     section {
         padding: 0 5px;
+    }
+}
+@media only screen and (max-width: 300px) {
+
+    .our-work {
+        background-image: url("../img/our-work-responsive.svg");
+        height: 45vh !important;
+        background-position: center center;
+
+    }
+
+    section {
+        padding: 0 5px;
+    }
+}
+@media only screen and (max-width: 400px) {
+
+    .our-work {
+        background-image: url("../img/our-work-responsive.svg");
+        height: 60vh !important;
+        background-position: center center;
+
+    }
+
+    section {
+        padding: 0 5px;
+    }
+    #hero{
+        height: 65vh !important;
     }
 }
