@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(28, 47, 65, 0.9);
+  background: rgba(28, 65, 29, 0.9);
   transition: 0.3s;
   z-index: 999;
 }
@@ -336,11 +336,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #2c4964;
+  color: #189828;
   border: none;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #1977cc;
+  color: #41CD52;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -432,13 +432,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media (max-width: 992px) {
-  #hero {
-    margin-bottom: 0;
-    height: 100vh;
-  }
-  #hero .container {
-    padding-bottom: 63px;
-  }
+
+
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
