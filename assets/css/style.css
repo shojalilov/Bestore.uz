@@ -1930,3 +1930,8 @@ section {
         padding: 0 5px;
     }
 }
+@media only screen and (max-width: 400px){
+    .our-work {
+        height: 70vh;
+    }
+}
