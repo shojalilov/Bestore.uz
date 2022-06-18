@@ -1880,6 +1880,7 @@ section {
     }
     .our-work{
         background-image: url("../img/our-work-responsive.svg");
+        height: 80vh;
     }
     section{
         padding: 0 5px;
@@ -1897,6 +1898,8 @@ section {
 
     .our-work {
         background-image: url("../img/our-work-responsive.svg");
+        height: 80vh;
+
     }
 
     section {
@@ -1907,7 +1910,9 @@ section {
 
     .our-work {
         background-image: url("../img/our-work-responsive.svg");
-    background-size: contain;
+        background-size: contain;
+        height: 80vh;
+
     }
 
     section {
@@ -1918,6 +1923,7 @@ section {
 
     .our-work {
         background-image: url("../img/our-work-responsive.svg");
+        height: 80vh;
     }
 
     section {
