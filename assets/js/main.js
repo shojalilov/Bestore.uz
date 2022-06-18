@@ -227,4 +227,4 @@ setInterval(()=>{
   }
 
   document.getElementById("tab" + count).click();
-},4000)
+},2000)

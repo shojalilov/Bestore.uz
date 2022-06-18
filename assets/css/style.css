@@ -1589,166 +1589,6 @@ section {
     }
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-#footer {
-    color: #444444;
-    font-size: 14px;
-    background: #f1f7fd;
-}
-
-#footer .footer-top {
-    padding: 60px 0 30px 0;
-    background: #fff;
-    box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
-}
-
-#footer .footer-top .footer-contact {
-    margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-contact h4 {
-    font-size: 22px;
-    margin: 0 0 30px 0;
-    padding: 2px 0 2px 0;
-    line-height: 1;
-    font-weight: 700;
-}
-
-#footer .footer-top .footer-contact p {
-    font-size: 14px;
-    line-height: 24px;
-    margin-bottom: 0;
-    font-family: 'Poppins', sans-serif;
-    color: #777777;
-}
-
-#footer .footer-top h4 {
-    font-size: 16px;
-    font-weight: bold;
-    color: #444444;
-    position: relative;
-    padding-bottom: 12px;
-}
-
-#footer .footer-top .footer-links {
-    margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-links ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-#footer .footer-top .footer-links ul i {
-    padding-right: 2px;
-    color: #1c84e3;
-    font-size: 18px;
-    line-height: 1;
-}
-
-#footer .footer-top .footer-links ul li {
-    padding: 10px 0;
-    display: flex;
-    align-items: center;
-}
-
-#footer .footer-top .footer-links ul li:first-child {
-    padding-top: 0;
-}
-
-#footer .footer-top .footer-links ul a {
-    color: #777777;
-    transition: 0.3s;
-    display: inline-block;
-    line-height: 1;
-}
-
-#footer .footer-top .footer-links ul a:hover {
-    text-decoration: none;
-    color: #1977cc;
-}
-
-#footer .footer-newsletter {
-    font-size: 15px;
-}
-
-#footer .footer-newsletter h4 {
-    font-size: 16px;
-    font-weight: bold;
-    color: #444444;
-    position: relative;
-    padding-bottom: 12px;
-}
-
-#footer .footer-newsletter form {
-    margin-top: 30px;
-    background: #fff;
-    padding: 6px 10px;
-    position: relative;
-    border-radius: 50px;
-    text-align: left;
-    border: 1px solid #bfdcf7;
-}
-
-#footer .footer-newsletter form input[type=email] {
-    border: 0;
-    padding: 4px 8px;
-    width: calc(100% - 100px);
-}
-
-#footer .footer-newsletter form input[type=submit] {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    border: 0;
-    background: none;
-    font-size: 16px;
-    padding: 0 20px;
-    background: #1977cc;
-    color: #fff;
-    transition: 0.3s;
-    border-radius: 50px;
-}
-
-#footer .footer-newsletter form input[type=submit]:hover {
-    background: #1c84e3;
-}
-
-#footer .credits {
-    padding-top: 5px;
-    font-size: 13px;
-    color: #444444;
-}
-
-#footer .social-links a {
-    font-size: 18px;
-    display: inline-block;
-    background: #1977cc;
-    color: #fff;
-    line-height: 1;
-    padding: 8px 0;
-    margin-right: 4px;
-    border-radius: 50%;
-    text-align: center;
-    width: 36px;
-    height: 36px;
-    transition: 0.3s;
-}
-
-
-
-.footer-text {
-    color: #41CD52;
-    cursor: pointer;
-}
-
-.form-title:hover {
-    color: #41CD52;
-}
 
 .button-book {
     background-color: #189828;
@@ -1818,21 +1658,6 @@ section {
     margin-left: 200px;
 }
 
-.operator {
-    position: relative;
-}
-
-.operator::after {
-    content: '&#xf590;';
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 500;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100px;
-    height: 100px;
-    stroke: black;
-}
 
 .custom-btn {
     background-color: #189828;
@@ -1886,16 +1711,22 @@ section {
     #hero{
         height: 65vh !important;
     }
+    section h2{
+        margin-top: 15px;
+    }
 }
 
 @media only screen and (max-width: 400px){
     #hero{
-        height: 65vh !important;
+        height: 75vh !important;
     }
     .our-work{
         height: 65vh !important;
         background-position: center center;
 
+    }
+    section h2{
+        margin-top: 15px;
     }
 }
 @media only screen and (max-width: 700px) {
@@ -1909,7 +1740,7 @@ section {
         padding: 0 5px;
     }
     #hero{
-        height: 70vh !important;
+        height: 65vh !important;
     }
     .icon-box {
         padding: 0 !important;
@@ -1949,27 +1780,31 @@ section {
     section{
         padding: 0 5px;
     }
+    section h2{
+        margin-top: 15px;
+    }
 }
 @media only screen and (max-width: 700px) {
 
     .our-work {
         background-image: url("../img/our-work-responsive.svg");
         background-size: contain;
-        height: 80vh;
+        height: 80vh !important;
         background-position: center center;
-
-
     }
 
     section {
         padding: 0 5px;
+    }
+    section h2{
+        margin-top: 15px;
     }
 }
 @media only screen and (max-width: 900px) {
 
     .our-work {
         background-image: url("../img/our-work-responsive.svg");
-        height: 80vh;
+        height: 80vh !important;
         background-position: center center;
     }
 
@@ -1978,6 +1813,12 @@ section {
     }
     .broken {
         margin-left: 0;
+    }
+    section h2{
+        margin-top: 15px;
+    }
+    #hero{
+        height: 82vh !important;
     }
 }
 
